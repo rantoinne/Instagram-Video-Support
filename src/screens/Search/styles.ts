@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     borderColor: COLOR_CODES.HIBISCUS,
   },
   imageStyle: { width: width / 3, height: width / 3.5 },
+  inputStyle: { color: COLOR_CODES.BLACK }
 });
 
 export default styles;

@@ -78,6 +78,7 @@ export class Search extends React.PureComponent<Props, State> {
             type={INPUT_TYPE.UNDERLINE}
             value={this.state.searchInput}
             placeholder='Search "Anything"'
+            inputStyle={styles.inputStyle}
             renderLeftIcon={this.renderInputLeftIcon}
             containerStyle={styles.inputContainerStyle}
             onChangeText={(v) => this.setState({ searchInput: v })}

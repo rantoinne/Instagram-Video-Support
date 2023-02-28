@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
   searchText: {
     fontFamily: FONT_FAMILY.REGULAR,
     marginLeft: PADDINGS.MEDIUM,
+    color: COLOR_CODES.BLACK,
   },
   inputContainerStyle: {
     borderWidth: 1,

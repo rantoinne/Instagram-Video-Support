@@ -1,4 +1,4 @@
-import { FONT_FAMILY, IMAGE_DIMENSIONS, PADDINGS, POST_HEIGHT, width } from '@utils';
+import { COLOR_CODES, FONT_FAMILY, IMAGE_DIMENSIONS, PADDINGS, POST_HEIGHT, width } from '@utils';
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -43,10 +43,12 @@ const styles = StyleSheet.create({
   userName: {
     fontSize: 12,
     fontFamily: FONT_FAMILY.MEDIUM,
+    color: COLOR_CODES.BLACK,
   },
   accountName: {
     fontSize: 10,
     fontFamily: FONT_FAMILY.REGULAR,
+    color: COLOR_CODES.BLACK,
   },
   optionsMenu: { maxWidth: '20%' },
   actionsContainer: {
@@ -65,6 +67,7 @@ const styles = StyleSheet.create({
   marginLeftStyle: { marginLeft: PADDINGS.LARGE },
   likesCount: {
     fontSize: 12,
+    color: COLOR_CODES.BLACK,
     fontFamily: FONT_FAMILY.MEDIUM,
     width: '100%',
     textAlign: 'left',
@@ -75,10 +78,12 @@ const styles = StyleSheet.create({
     width: '100%',
     marginTop: PADDINGS.X_SMALL,
     textAlign: 'left',
+    color: COLOR_CODES.BLACK,
   },
   caption: {
     fontSize: 12,
     fontFamily: FONT_FAMILY.MEDIUM,
+    color: COLOR_CODES.BLACK,
     textAlign: 'left',
   },
 });

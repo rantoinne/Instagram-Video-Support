@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   orTextStyle: { fontFamily: FONT_FAMILY.MEDIUM, marginHorizontal: 8, color: COLOR_CODES.BLACK_BLUR_HEAVY },
   loginButtonStyle: {
     borderWidth: 1,
-    backgroundColor: 'transparent',
+    backgroundColor: COLOR_CODES.TRANSPARENT,
     borderColor: COLOR_CODES.PICTON_BLUE,
   },
   descriptionTextStyle: {
